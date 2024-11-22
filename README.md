@@ -16,6 +16,7 @@ Try to keep adding any new packages that we need to deliver the speed that we ne
   * Environment setup - will read config files in many formats which is helpful when 
 * [Zap](https://pkg.go.dev/go.uber.org/zap#section-readme)
   * Takes care of all of the logging implementations that will be needed for the routing 
+  * https://betterstack.com/community/guides/logging/go/zap/
 
 ## Redis 
 This will keep track of bid state and assurance that the proper functions continue to occur 
