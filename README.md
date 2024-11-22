@@ -9,9 +9,13 @@
 Try to keep adding any new packages that we need to deliver the speed that we need for this database. 
 
 * [GoRedis](https://pkg.go.dev/github.com/go-redis/redis/v8#section-readme)
+  * State management 
 * [AWS for Go](github.com/aws/aws-sdk-go)
+  * Connects to AWS to talk with the services needed
 * [Viper](https://pkg.go.dev/github.com/dvln/viper)
   * Environment setup - will read config files in many formats which is helpful when 
+* [Zap](https://pkg.go.dev/go.uber.org/zap#section-readme)
+  * Takes care of all of the logging implementations that will be needed for the routing 
 
 ## Redis 
 This will keep track of bid state and assurance that the proper functions continue to occur 
